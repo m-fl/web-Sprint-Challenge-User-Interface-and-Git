@@ -85,6 +85,10 @@ p {
     padding-bottom: 20px;  
 }
 
+#about-text{
+    width: 100%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -100,6 +104,8 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/*boxes for index.html>*/
 
 .box1{
     background-color: teal;
@@ -193,6 +199,64 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*info boxes for about.html*/
+
+.infocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.info-boxes1{
+   align-self: flex-start;
+   display: flex;
+   justify-content: baseline;
+   flex-wrap: wrap;
+   vertical-align: top;
+   text-align: left;
+}
+.textbox{
+    width: 100%
+}
+
+.info-boxes2{
+    align-self: flex-end;
+}
+
+
+.info1{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: baseline;
+    
+    
+  
+}
+.info2{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: baseline;
+    
+}
+.info3{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: baseline;
+ 
+}
+.info4{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: baseline;
+
+}
+
+
+
+
 
 .bottom-content {
     display: flex;
